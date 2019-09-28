@@ -33,6 +33,11 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:6001/eureka/,http://localhost:6002/eureka/
+
+
+emp:
+name: zhangsan
+
 ---
 server:
   port: 8001
